@@ -16,17 +16,21 @@ h1{
 
 }
 
-table{border-collapse:collapse;}
+table{
+   /* border-collapse:collapse;
+    border-style:double;*/
+    border-color:blue;
+}
 
 td {
 	border:1px;
-	border-style:solid;
+	border-style:double;
 	border-color:blue;
 	height:90px;
 	width:90px;
 	cursor: pointer;
 	text-align:center;
-	font-size: 10px;
+	font-size: 40px;
 	color: black;
 }
 
