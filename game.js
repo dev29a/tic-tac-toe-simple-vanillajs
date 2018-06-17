@@ -66,7 +66,8 @@
 			const tds = document.querySelectorAll('td')
 				tds.forEach(function(td) {
 						td.addEventListener('click', function(e) {
-						e.target.textContent = playerChoice
+                        e.target.textContent = playerChoice
+                        e.target.style.color ='#3FBF70'
 						gameState.playerTurn = 'computerChoice'
 						if (!winnerCheck() ) 
 							{ computerTurn(getEmptySpace()) }
@@ -76,7 +77,8 @@
 	const computerTurn = function(idEmptyTile) {
 		if 	(idEmptyTile !== undefined) {
 				let emptyTitle = document.getElementById(idEmptyTile)
-				emptyTitle.textContent = computerChoice
+                emptyTitle.textContent = computerChoice
+                emptyTitle.style.color ='#BD3FBF'
 				winnerCheck()
 				gameState.playerTurn = 'playerChoice'}
 		else { alert('DRAW')}	
