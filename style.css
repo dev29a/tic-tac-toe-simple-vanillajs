@@ -1,10 +1,15 @@
-html, body { margin: 0; padding: 0; }
+body { 
+    margin: 0; 
+    padding: 0;
+   
+    background: plum;
+}
+
 
 h1{
     text-align:center;
     font-size:40px;
     color:blue;
-    background: rgb(211, 241, 252);
     margin-bottom: 40px;
     margin-top:30px;
 }
@@ -20,8 +25,7 @@ table{
    /* border-collapse:collapse;
     border-style:double;*/
     border-color:blue;
-    background: #F9F8D1;
-}
+ }
 
 td {
 	border:1px;
